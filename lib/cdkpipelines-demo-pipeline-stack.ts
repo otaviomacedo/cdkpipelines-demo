@@ -39,7 +39,7 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
         });
 
         pipeline.addApplicationStage(new CdkpipelinesDemoStage(this, 'PreProd', {
-            env: {account: 'ACCOUNT1', region: 'us-east-2'}
+            env: {account: '280619947791', region: 'us-east-2'}
         }));
     }
 }
