@@ -1,7 +1,8 @@
 import * as apigw from '@aws-cdk/aws-apigateway';
 import * as lambda from '@aws-cdk/aws-lambda';
-import { CfnOutput, Construct, Stack, StackProps } from '@aws-cdk/core';
+import {CfnOutput, Construct, Stack, StackProps} from '@aws-cdk/core';
 import * as path from 'path';
+import {RetentionDays} from "@aws-cdk/aws-logs";
 
 /**
  * A stack for our simple Lambda-powered web service
